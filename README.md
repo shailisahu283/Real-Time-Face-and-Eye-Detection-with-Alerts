@@ -32,13 +32,9 @@ Python 3.x
 OpenCV Library
 NumPy
 # Installation
-Clone the repository or download the code.
 
-git clone https://github.com/your-repository-link.git
-Install the required Python libraries.
-
-pip install opencv-python numpy
-Run the code using Google Colab (recommended) or a local Python environment.
+Install the required Data Set For using image as input for Detection the person's eye and position.
+Data name : shape_predictor_68_face_landmarks.dat
 
 # Usage
 Launch the script in your preferred Python environment or open the Google Colab link.
