@@ -13,8 +13,10 @@ Visual feedback through overlays displaying:
 Blink counts.
 Face position.
 Alert buttons for critical conditions.
-# Demo
-Check out the live code implementation on Google Colab: [Project Code Link](https://colab.research.google.com/drive/1tjo-YXL7jvLfSJRJ6r38-nQLeZDPYIks?usp=sharing)
+# Project Link
+Check out the live code implementation on Google Colab in real-time Detection: [Project Code Link](https://colab.research.google.com/drive/1tjo-YXL7jvLfSJRJ6r38-nQLeZDPYIks?usp=sharing)
+Check out the live code implementation on Google Colab using image as input for Detection the person's eye and position : [Project Code Link](https://colab.research.google.com/drive/1P95uk-lRKsATCuXK4_LKEhRlaRtt424W?usp=sharing)
+
 
 # System Architecture
 Input: Webcam video stream.
