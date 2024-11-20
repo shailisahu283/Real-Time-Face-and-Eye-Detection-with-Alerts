@@ -2,7 +2,7 @@
 A Python-based real-time face and eye detection system utilizing OpenCV to analyze video streams, track blinks, and monitor face positions. This system triggers alerts for prolonged eye closure, face absence, or off-center positions, ensuring continuous real-time feedback.
 
 # Features
-Detects faces and eyes in real-time using a webcam feed.
+Detects faces and eyes in real-time using a webcam feed.<br/>
 Tracks blinks and computes the number of blink events.
 Determines face positions (Left, Middle, Right) relative to the frame.
 Generates alerts for:
