@@ -128,6 +128,3 @@ This project is licensed under the [MIT License](LICENSE).
 **Shaili Sahu**  
 📧 Reach out at [shailisahu283@gmail.com](mailto:shailisahu283@gmail.com) for questions or feedback!  
 
----  
-
-This version includes emojis for enhanced readability and placeholders for adding images or GIFs. Let me know if you'd like to tweak anything further!
