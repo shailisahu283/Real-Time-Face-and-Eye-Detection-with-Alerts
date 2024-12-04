@@ -102,10 +102,12 @@ A Python-based system using OpenCV to detect faces and eyes in real time, track 
 ![Screenshot 2024-11-17 223357](https://github.com/user-attachments/assets/e0883ac8-b979-406b-b90e-cfcb64f86190)
 
 ### **2. Alerts for Critical Events:**  
-*(Add an image or GIF highlighting alert conditions like prolonged eye closure)*  
+![Screenshot 2024-11-17 223457](https://github.com/user-attachments/assets/3beda625-07d6-4abe-ab28-8d8245b7ea34)
+
 
 ### **3. Visual Feedback with Overlays:**  
-*(Add an image or GIF showing blink count, face position, and alert buttons)*  
+![Screenshot 2024-11-17 223521](https://github.com/user-attachments/assets/b9481721-ea7e-424f-ab3a-c34783136321)
+ 
 
 ---
 
