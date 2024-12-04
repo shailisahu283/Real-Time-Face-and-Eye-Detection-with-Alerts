@@ -1,4 +1,4 @@
-# **📸 Real-Time Face and Eye Detection with Alerts**  
+# **📸 AI-Driven Driver Monitoring System: Real-Time Face and Eye Detection with Alerts**  
 A Python-based system using OpenCV to detect faces and eyes in real time, track blinks, monitor face positions, and provide continuous feedback. 🚨 Alerts are triggered for prolonged eye closure, face absence, or off-center face positions.  
 
 ---
