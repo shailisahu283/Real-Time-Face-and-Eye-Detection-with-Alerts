@@ -1,56 +1,131 @@
-# Real-Time-Face-and-Eye-Detection-with-Alerts
-A Python-based real-time face and eye detection system utilizing OpenCV to analyze video streams, track blinks, and monitor face positions. This system triggers alerts for prolonged eye closure, face absence, or off-center positions, ensuring continuous real-time feedback.
+# **📸 Real-Time Face and Eye Detection with Alerts**  
+A Python-based system using OpenCV to detect faces and eyes in real time, track blinks, monitor face positions, and provide continuous feedback. 🚨 Alerts are triggered for prolonged eye closure, face absence, or off-center face positions.  
 
-# Features
-Detects faces and eyes in real-time using a webcam feed.<br/>
-Tracks blinks and computes the number of blink events.<br/>
-Determines face positions (Left, Middle, Right) relative to the frame.<br/>
-Generates alerts for:<br/>
-Prolonged eye closure beyond a threshold.<br/>
-Face absence for a predefined duration.<br/>
-Staying in Left or Right positions for extended periods.<br/>
-Visual feedback through overlays displaying:<br/>
-Blink counts.<br/>
-Face position.<br/>
-Alert buttons for critical conditions.<br/>
-# Project Link
-Check out the live code implementation on Google Colab in real-time Detection: [Project Code Link](https://colab.research.google.com/drive/1tjo-YXL7jvLfSJRJ6r38-nQLeZDPYIks?usp=sharing)<br/>
-Check out the live code implementation on Google Colab using image as input for Detection the person's eye and position : [Project Code Link](https://colab.research.google.com/drive/1P95uk-lRKsATCuXK4_LKEhRlaRtt424W?usp=sharing)<br/>
+---
 
+## **📑 Table of Contents**  
+1. [✨ Features](#features)  
+2. [📂 System Architecture](#system-architecture)  
+3. [🛠️ Project Workflow](#project-workflow)  
+4. [⚙️ Setup Instructions](#setup-instructions)  
+5. [▶️ Usage](#usage)  
+6. [🔗 Project Links](#project-links)  
+7. [🌟 Output Examples](#output-examples)  
+8. [🤝 Contributing](#contributing)  
+9. [📜 License](#license)  
+10. [👤 Author](#author)  
 
-# System Architecture
-Input: Webcam video stream.<br/>
-Processing:<br/>
-Frame preprocessing (grayscale conversion).<br/>
-Face and eye detection using Haar Cascade Classifiers.<br/>
-Blink and position analysis.<br/>
-Output: Frames with overlays showing alerts and feedback.<br/>
-Alert Logic: Threshold checks for prolonged eye closure, face absence, and off-center positions.<br/>
-# Setup Instructions
-Prerequisites<br/>
-Python 3.x<br/>
-OpenCV Library<br/>
-NumPy<br/>
-# Installation
+---
 
-Install the required Data Set For using image as input for Detection the person's eye and position.<br/>
-Data set name : shape_predictor_68_face_landmarks.dat<br/>
+## **✨ Features**  
+- **🎥 Real-Time Detection:** Uses webcam feed to detect faces and eyes in real time.  
+- **👁️ Blink Tracking:** Counts blinks and analyzes eye closure duration.  
+- **📍 Face Position Monitoring:** Detects if the face is centered, left, or right relative to the frame.  
+- **⚠️ Alert Mechanism:**  
+  - Triggers alerts for prolonged eye closure beyond a threshold.  
+  - Detects face absence for a predefined duration.  
+  - Alerts for prolonged left or right face positions.  
+- **🖼️ Visual Feedback:**  
+  - Displays blink count and face position.  
+  - Provides on-screen alert indicators.  
 
-# Usage
-Launch the script in your preferred Python environment or open the Google Colab link.<br/>
-Allow access to your webcam when prompted.<br/>
-Observe real-time feedback and alerts directly on the video stream.<br/>
-# Project Workflow
-Input: Captures real-time video frames from the webcam.<br/>
-Processing: Detects faces and eyes, tracks blink events, and determines face position.<br/>
-Output: Displays processed frames with overlays for blink count, position, and alerts.<br/>
-# Contributing
-Feel free to fork this repository and submit pull requests for improvements or new features.<br/>
+---
 
-# License
-This project is licensed under the MIT License.<br/>
+## **📂 System Architecture**  
+### **Input**  
+- 🎥 Webcam video stream or preloaded images.  
 
-# Author
-Shaili Sahu<br/>
+### **Processing**  
+- 🖤 Grayscale frame preprocessing.  
+- 🧠 Face and eye detection using Haar Cascade Classifiers.  
+- 📊 Blink and position analysis using threshold-based logic.  
 
-For questions or feedback, reach out to me at shailisahu283@gmail.com.<br/>
+### **Output**  
+- ✅ Real-time overlays displaying:  
+  - Blink count.  
+  - Face position.  
+  - Alerts for critical conditions.  
+
+---
+
+## **🛠️ Project Workflow**  
+1. **📥 Input:**  
+   Captures real-time video frames from the webcam.  
+
+2. **⚙️ Processing:**  
+   - Detects faces and eyes in the frame.  
+   - Tracks blink events and face positions.  
+   - Implements alert logic based on thresholds.  
+
+3. **📤 Output:**  
+   Displays processed frames with:  
+   - Blink count overlays.  
+   - Face position indicators.  
+   - Real-time alert feedback.  
+
+---
+
+## **⚙️ Setup Instructions**  
+### **Prerequisites**  
+- 🐍 Python 3.x  
+- 🖥️ OpenCV Library  
+- 🔢 NumPy  
+
+### **Installation Steps**  
+1. Install Python and required libraries:  
+   ```bash
+   pip install opencv-python-headless numpy
+   ```  
+2. Download the pre-trained model for image-based detection:  
+   - Dataset: `shape_predictor_68_face_landmarks.dat`  
+   - [📥 Download Link](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2)  
+
+---
+
+## **▶️ Usage**  
+1. Run the script in a Python environment or open the Google Colab notebook.  
+2. 🎥 Allow webcam access when prompted.  
+3. 🚀 Observe real-time feedback and alerts displayed on the video stream.  
+
+---
+
+## **🔗 Project Links**  
+- **🔴 Real-Time Detection:** [Colab Notebook](https://colab.research.google.com/drive/1tjo-YXL7jvLfSJRJ6r38-nQLeZDPYIks?usp=sharing)  
+- **🖼️ Image-Based Detection:** [Colab Notebook](https://colab.research.google.com/drive/1P95uk-lRKsATCuXK4_LKEhRlaRtt424W?usp=sharing)  
+
+---
+
+## **🌟 Output Examples**  
+🎨 Below are some examples of the system in action:  
+
+### **1. Real-Time Detection:**  
+![Screenshot 2024-11-17 223357](https://github.com/user-attachments/assets/e0883ac8-b979-406b-b90e-cfcb64f86190)
+
+### **2. Alerts for Critical Events:**  
+*(Add an image or GIF highlighting alert conditions like prolonged eye closure)*  
+
+### **3. Visual Feedback with Overlays:**  
+*(Add an image or GIF showing blink count, face position, and alert buttons)*  
+
+---
+
+## **🤝 Contributing**  
+Contributions are welcome! 🙌  
+- Fork this repository.  
+- Make your changes or add features.  
+- Submit a pull request for review.  
+
+---
+
+## **📜 License**  
+This project is licensed under the [MIT License](LICENSE).  
+
+---
+
+## **👤 Author**  
+**Shaili Sahu**  
+📧 Reach out at [shailisahu283@gmail.com](mailto:shailisahu283@gmail.com) for questions or feedback!  
+
+---  
+
+This version includes emojis for enhanced readability and placeholders for adding images or GIFs. Let me know if you'd like to tweak anything further!
